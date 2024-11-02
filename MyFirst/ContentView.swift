@@ -16,7 +16,7 @@ struct ContentView: View {
                 .font(.largeTitle)
             
             Button("切り替えボタン") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                outputText = "Hi, Swift!"
             }
             .padding()
             .background(.blue)
